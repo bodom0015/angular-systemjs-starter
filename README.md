@@ -1,5 +1,7 @@
 # angular-systemjs-starter
-This is a simple seed project for using Angular in TypeScript with SystemJS
+This is a simple seed project for using Angular in TypeScript with SystemJS.
+
+Based on [this tutorial](https://psamsotha.github.io/angular/2016/12/16/angular2-testing-karma-systemjs.html).
 
 # Install
 ```bash
