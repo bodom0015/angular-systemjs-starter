@@ -1,1 +1,7 @@
+# Dependency cache
 node_modules/
+
+# Build output
+**/*.js
+**/*.js.map
+npm-debug.log
