@@ -1,0 +1,32 @@
+{
+  "name": "angular2-testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc && concurrently \"tsc -w\" \"lite-server\" ",
+    "test": "tsc && concurrently \"tsc -w\" \"karma start karma.conf.js\"",
+    "test-once": "tsc && karma start karma.conf.js --single-run",
+    "tsc": "tsc"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jasmine": "^2.5.43",
+    "@types/node": "^7.0.5",
+    "concurrently": "^3.3.0",
+    "core-js": "^2.4.1",
+    "jasmine-core": "^2.5.2",
+    "karma": "^1.4.1",
+    "karma-chrome-launcher": "^2.0.0",
+    "karma-cli": "^1.0.1",
+    "karma-jasmine": "^1.1.0",
+    "karma-jasmine-html-reporter": "^0.2.2",
+    "lite-server": "^2.2.2",
+    "typescript": "^2.1.6"
+  },
+  "dependencies": {
+    "rxjs": "^5.1.1",
+    "systemjs": "^0.20.7"
+  }
+}
